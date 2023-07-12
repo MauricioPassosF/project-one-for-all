@@ -10,7 +10,7 @@ CREATE TABLE plans
 (
     plan_id	INT NOT NULL AUTO_INCREMENT,
     plan VARCHAR(512),
-    plan_value DOUBLE,
+    plan_value DECIMAL(5,2),
     PRIMARY KEY (plan_id)
 ) engine = InnoDB;
 
